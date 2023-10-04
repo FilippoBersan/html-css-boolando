@@ -115,6 +115,44 @@ MAIN
   background-color: green;
   color: white;
 }
+
+.img1b,
+.img2b,
+.img3b,
+.img4b,
+.img5b,
+.img6b {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.box1:hover .img1b {
+  opacity: 1;
+}
+
+.box2:hover .img2b {
+  opacity: 1;
+}
+
+.box3:hover .img3b {
+  opacity: 1;
+}
+
+.box4:hover .img4b {
+  opacity: 1;
+}
+
+.box5:hover .img5b {
+  opacity: 1;
+}
+
+.box6:hover .img6b {
+  opacity: 1;
+}
+
 /* 
 ***************
 FOOTER
