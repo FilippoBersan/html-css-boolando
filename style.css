@@ -33,10 +33,29 @@ COMMON
 }
 .prezzi {
   gap: 5px;
+  display: flex;
 }
 
 img {
   background-size: cover;
+}
+
+.like {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  right: 0px;
+  top: 10px;
+  text-align: center;
+}
+
+.cuore:hover {
+  color: red;
 }
 
 /* 
@@ -77,10 +96,24 @@ MAIN
   background-color: black;
   border: salmon solid;
   display: flex;
+  position: relative;
 }
 
-.prezzi {
+.info {
+  position: absolute;
+  bottom: 30px;
   display: flex;
+  gap: 10px;
+}
+
+.percentualesconto {
+  background-color: red;
+  color: white;
+}
+
+.eco {
+  background-color: green;
+  color: white;
 }
 /* 
 ***************
