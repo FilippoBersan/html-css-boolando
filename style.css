@@ -82,6 +82,13 @@ HEADER
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  box-shadow: 1px 1px 30px 1px rgb(0, 0, 0);
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 222;
 }
 
 .containerlogo {
@@ -103,6 +110,7 @@ MAIN
   margin: 50px auto;
   padding-bottom: 50px;
   background-color: beige;
+  margin-top: 100px;
 
   width: 1000px;
   display: flex;
@@ -121,7 +129,7 @@ MAIN
   /* width: 300px; */
   height: 400px;
   background-color: black;
-  border: salmon solid;
+  /* border: salmon solid; */
   display: flex;
   position: relative;
 }
@@ -186,3 +194,36 @@ FOOTER
 
 
 */
+
+footer {
+  color: white;
+}
+
+.col1 {
+  line-height: 50px;
+}
+
+.col2 {
+  line-height: 60px;
+  color: white;
+}
+.containerfooter {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.874);
+  padding: 50px 50px;
+  box-shadow: 1px 1px 30px 1px rgb(0, 0, 0);
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+}
