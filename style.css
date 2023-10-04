@@ -63,8 +63,35 @@ img {
 HEADER
 
 
+
+
 */
 
+.categorie,
+.selezioni {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.topmenu {
+  display: flex;
+  background-color: orange;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerlogo {
+  background-image: url(img/boolean-logo.png);
+  height: 30px;
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 200px;
+}
 /* 
 ***************
 MAIN
